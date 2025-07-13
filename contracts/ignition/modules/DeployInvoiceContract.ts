@@ -1,13 +1,13 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-export default buildModule("DeployMedInvoiceSystem", (m) => {
+export default buildModule("DeployInvoiceSystem", (m) => {
   const initialSupply = 1_000_000; // total supply for PPTToken
 
   // Step 1: Deploy PPTToken with initial supply
   const pptToken = m.contract("PPTToken", [initialSupply]);
 
   // Step 2: Deploy MedInvoiceContract with the PPTToken address
-  const medInvoiceContract = m.contract("MedInvoiceContract", [pptToken]);
+  const invoiceContract = m.contract("InvoiceContract", [pptToken]);
 
-  return { pptToken, medInvoiceContract };
+  return { pptToken, invoiceContract };
 });

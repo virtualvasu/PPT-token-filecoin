@@ -2,7 +2,7 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/virtu/c4gt/week7/PPT-token-filecoin/contracts/contracts/PPTtoken.sol": {
-      "lastModificationDate": 1752369033901,
+      "lastModificationDate": 1752371839991,
       "contentHash": "2f7224b915caa0c07d95ad2ccf3049d3",
       "sourceName": "contracts/PPTtoken.sol",
       "solcConfig": {
@@ -228,46 +228,6 @@
         "IERC20Metadata"
       ]
     },
-    "/home/virtu/c4gt/week7/PPT-token-filecoin/contracts/contracts/MedInvoiceContract.sol": {
-      "lastModificationDate": 1752369715874,
-      "contentHash": "ae6578cc2aefb6fa197ccf780f6350f0",
-      "sourceName": "contracts/MedInvoiceContract.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/ReentrancyGuard.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.28"
-      ],
-      "artifacts": [
-        "MedInvoiceContract"
-      ]
-    },
     "/home/virtu/c4gt/week7/PPT-token-filecoin/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1752369308867,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
@@ -340,6 +300,46 @@
       ],
       "artifacts": [
         "ReentrancyGuard"
+      ]
+    },
+    "/home/virtu/c4gt/week7/PPT-token-filecoin/contracts/contracts/InvoiceContract.sol": {
+      "lastModificationDate": 1752371651375,
+      "contentHash": "9017bebb2dbcc05fec66e49210a80c50",
+      "sourceName": "contracts/InvoiceContract.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/utils/ReentrancyGuard.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "InvoiceContract"
       ]
     }
   }

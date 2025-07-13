@@ -1,5 +1,5 @@
 {
-  "DeployPPTToken#PPTToken": "0x2cEA78491DFb4eecB061FcB669d148977EB8a950",
-  "DeployMedInvoiceSystem#PPTToken": "0x823E5B8AA6ac46cFdc3b5A68f969ECb07efCE845",
-  "DeployMedInvoiceSystem#MedInvoiceContract": "0xeEEFe607e5f4649cE99E4eaa9CDa1cDDE32Ee168"
+  "DeployPPTToken#PPTToken": "0x3dd3981F77E91602648f5E2C876176C5F72ACeDe",
+  "DeployInvoiceSystem#PPTToken": "0x857e1BA1Dfe726E33698cD21f38A02161d7958E3",
+  "DeployInvoiceSystem#InvoiceContract": "0x34b6921bfe6c4933a1Af79b5f36A5b6e28B1a081"
 }

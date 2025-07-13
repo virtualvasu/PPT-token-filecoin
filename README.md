@@ -2,8 +2,8 @@
 
 create .env from .env.template
 
-PPT token address: https://filscan.io/en/address/0x823E5B8AA6ac46cFdc3b5A68f969ECb07efCE845/
+PPT token address: https://filscan.io/en/address/0x857e1BA1Dfe726E33698cD21f38A02161d7958E3/
 
-MedInvoiceContract: https://filscan.io/en/address/0xeEEFe607e5f4649cE99E4eaa9CDa1cDDE32Ee168/
+MedInvoiceContract: https://filscan.io/en/address/0x34b6921bfe6c4933a1Af79b5f36A5b6e28B1a081/
 
 
