@@ -2,11 +2,16 @@ import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-ignition";
 import "dotenv/config";
 
-// Safely read the PRIVATE_KEY from .env
+// Safely read environment variables
 const privateKey = process.env.PRIVATE_KEY;
+const sepoliaRpcUrl = process.env.SEPOLIA_RPC_URL;
 
 if (!privateKey) {
   throw new Error("❌ PRIVATE_KEY is not set in your .env file.");
+}
+
+if (!sepoliaRpcUrl) {
+  throw new Error("❌ SEPOLIA_RPC_URL is not set in your .env file.");
 }
 
 const config: HardhatUserConfig = {
@@ -16,6 +21,11 @@ const config: HardhatUserConfig = {
       url: "https://api.calibration.node.glif.io/rpc/v1",
       accounts: [privateKey],
       chainId: 314159,
+    },
+    sepolia: {
+      url: sepoliaRpcUrl,
+      accounts: [privateKey],
+      chainId: 11155111,
     },
   },
 };
